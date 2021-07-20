@@ -19,7 +19,7 @@ public class Activity implements Comparable<Activity> {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
-    private String disciplina;
+    private String subject;
     private String data;
 
 

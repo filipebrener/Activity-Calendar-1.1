@@ -10,6 +10,4 @@ class ActivityCalendarApplicationTests {
 	void contextLoads() {
 	}
 
-
-
 }

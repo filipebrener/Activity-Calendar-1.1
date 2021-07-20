@@ -15,6 +15,6 @@ public class ActivityNotFoundException extends Throwable {
 
     @Override
     public String toString() {
-        return "id: " + this.id + "não é um id válido";
+        return "id: " + this.id + "is not a valid id";
     }
 }
