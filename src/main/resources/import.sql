@@ -1,6 +1,11 @@
-INSERT INTO atividades (id,tipo,numero,disciplina,data) VALUES  (1,'lista', 1, 'estatistica', '11/08');
-INSERT INTO atividades (id,tipo,numero,disciplina,data) VALUES  (2,'prova', 1, 'estatistica', '16/08');
-INSERT INTO atividades (id,tipo,numero,disciplina,data) VALUES  (3,'prova', 2, 'estatistica', '20/09');
-INSERT INTO atividades (id,tipo,numero,disciplina,data) VALUES  (4,'lista', 2, 'estatistica', '18/10');
-INSERT INTO atividades (id,tipo,numero,disciplina,data) VALUES  (5,'prova', 3, 'estatistica', '18/10');
-INSERT INTO atividades (id,tipo,numero,disciplina,data) VALUES  (6,'final', 1, 'estatistica', '03/11');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (1,'Prova Final', 'Estatistica', '03/11/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (2,'Lista 1', 'Estatistica', '11/08/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (3,'Prova 2', 'Estatistica', '20/09/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (4,'Prova 3', 'Estatistica', '18/10/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (5,'Prova 1', 'Estatistica', '16/08/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (6,'Lista 2', 'Estatistica', '18/10/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (7,'Prova 1', 'Sistema Operacional', '24/08/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (8,'Prova 2', 'Sistema Operacional', '28/09/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (9,'Prova 3', 'Sistema Operacional', '26/10/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (10,'Projeto pratico', 'Sistema Operacional', '06/10/2021');
+INSERT INTO atividades (id,name,disciplina,data) VALUES  (11,'Video / Apresentacao', 'Sistema Operacional', '21/10/2021');
