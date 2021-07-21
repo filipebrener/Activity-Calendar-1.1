@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "Atividade")
+@Table(name = "Activity")
 public class Activity implements Comparable<Activity> {
 
     @Id

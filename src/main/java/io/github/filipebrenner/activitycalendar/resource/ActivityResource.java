@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.stream.Stream;
 
 @RestController
-@RequestMapping("/activity")
+@RequestMapping("/activities")
 @AllArgsConstructor
 public class ActivityResource {
 
