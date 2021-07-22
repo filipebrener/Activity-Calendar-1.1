@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 
 @RestController
 @RequestMapping("/activities")
+@CrossOrigin(origins = "*")
 @AllArgsConstructor
 public class ActivityResource {
 
