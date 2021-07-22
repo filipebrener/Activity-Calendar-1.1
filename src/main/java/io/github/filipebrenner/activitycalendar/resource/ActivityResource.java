@@ -24,7 +24,7 @@ public class ActivityResource {
     }
 
     @PostMapping
-    public ResponseEntity<Activity> postAtividade(@RequestBody Activity atividade){
+    public ResponseEntity<Activity> postActivity(@RequestBody Activity atividade){
         service.save(atividade);
         return ResponseEntity.status(HttpStatus.CREATED).body(atividade);
     }
@@ -35,7 +35,7 @@ public class ActivityResource {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity deleteAtividade(@PathVariable("id") Long id) throws ActivityNotFoundException {
+    public ResponseEntity deleteActivity(@PathVariable("id") Long id) throws ActivityNotFoundException {
         service.delete(service.findById(id));
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }

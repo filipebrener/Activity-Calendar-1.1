@@ -9,5 +9,5 @@ INSERT INTO Activity (id,name,subject,data) VALUES  (8,'Prova 2', 'Sistema Opera
 INSERT INTO Activity (id,name,subject,data) VALUES  (9,'Prova 3', 'Sistema Operacional', '26/10/2021');
 INSERT INTO Activity (id,name,subject,data) VALUES  (10,'Projeto pratico', 'Sistema Operacional', '06/10/2021');
 INSERT INTO Activity (id,name,subject,data) VALUES  (11,'Video / Apresentacao', 'Sistema Operacional', '21/10/2021');
-INSERT INTO Activity (id,name,subject,data) VALUES  (12,'Prova 1', 'Organização de Computadores', '31/08/2021');
-INSERT INTO Activity (id,name,subject,data) VALUES  (13,'Prova 2', 'Organização de Computadores', '26/10/2021');
+INSERT INTO Activity (id,name,subject,data) VALUES  (12,'Prova 1', 'Organizacao de Computadores', '31/08/2021');
+INSERT INTO Activity (id,name,subject,data) VALUES  (13,'Prova 2', 'Organizacao de Computadores', '26/10/2021');
