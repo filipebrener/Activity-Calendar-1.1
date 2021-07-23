@@ -1,0 +1,1 @@
+web: java -jar target/io.github.filipebrenner.activitycalendar-1.0.0.jar

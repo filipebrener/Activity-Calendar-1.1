@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.stream.Stream;
 
 @RestController
-@RequestMapping("/giga")
+@RequestMapping("/activities")
 @CrossOrigin(origins = "*")
 @AllArgsConstructor
 public class ActivityResource {
