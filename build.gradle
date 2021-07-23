@@ -31,3 +31,8 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+jar {
+	archiveBaseName = 'activity-calendar-restpi'
+	archiveVersion =  '0.1.0'
+}

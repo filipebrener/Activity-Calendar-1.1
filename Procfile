@@ -1,1 +1,0 @@
-web: java -jar target/activity-calendar-restapi.jar
