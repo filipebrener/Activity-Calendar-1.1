@@ -7,4 +7,4 @@ Construída utilizando Spring Boot com as dependências:
  * Hibernante
  * H2 Database
 
-Link da api no heroku: https://activity-calendar-restapi.herokuapp.com/activities
+Link da api no heroku: https://activity-calendar-restapi.herokuapp.com/swagger-ui.html#/activity-resource
