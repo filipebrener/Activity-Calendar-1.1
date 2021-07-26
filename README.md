@@ -6,4 +6,5 @@ Construída utilizando Spring Boot com as dependências:
  * Spring Data JPA. 
  * Hibernante
  * H2 Database
+
 Link da api no heroku: https://activity-calendar-restapi.herokuapp.com/activities
