@@ -42,7 +42,7 @@ public class ActivityResource {
 
     @DeleteMapping("/{id}")
     @ApiOperation(value = "Deleta uma atividade")
-    public ResponseEntity deleteActivity(@PathVariable("id") Long id) throws ActivityNotFoundException {
+    public ResponseEntity<Void> deleteActivity(@PathVariable("id") Long id) throws ActivityNotFoundException {
         service.delete(service.findById(id));
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
